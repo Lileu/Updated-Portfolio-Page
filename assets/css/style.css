@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body, main, header, {
+    display: block;
+}
+
+body {
+    color: #333;
+    background-color: #fff;
+}
+
+main {
+    overflow: hidden;
+}
+
+header {
+    background-color: lightcoral;
+    position: relative;
+    height: 5em;
+}
+
+nav {
+    position: relative;
+}
+
+ul, li {
+    list-style: none;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner {
+    background-color: #f7f7f7;
+    height: 650px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* ABOUT ME */
+#about-me {
+    background-color: bisque;
+    position: relative;
+    height: 500px;
+}
+
+
+/* PORTFOLIO */
+#portfolio-section {
+    background-color: pink;
+    position: relative;
+    height: 500px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body {
+        text-rendering: optimizeLegibility;
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 738px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        width: 96px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
