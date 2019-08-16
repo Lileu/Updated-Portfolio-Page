@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body, main, header, {
+body, main, header, div {
     font-family: 'Lato', sans-serif;
     display: block;
 }
@@ -14,30 +14,47 @@ body {
 
 main {
     overflow: hidden;
+    font-weight: 900;
+}
+
+h3 {
+    color: #13547a;
 }
 
 header {
-    background-color: lightcoral;
+    background-color: whitesmoke;
     position: relative;
     height: 5em;
 }
 
 nav {
     position: relative;
+    
 }
 
-ul, li {
+ul#horizontal-list {
     list-style: none;
-    float: left;
     position: relative;
     text-align: center;
+    align-items: center;
+
+}
+
+ul#horizontal-list li {
+    display: inline;
+    padding: 0 20px;
 }
 
 .container {
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 50px 15px;
+    flex-direction: column;
+}
+
+/* BANNER */
+mx-3 {
+    margin-left: 1rem!important;
 }
 
 .banner {
@@ -47,24 +64,96 @@ ul, li {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    padding-top: 170px;
+}
+
+.banner-box {
+ box-shadow: 2px 2px 4px 0 rgba(0,0,0,.4);
+ z-index: 2;
+ background-color: #f7f7f7;
+ padding: 20px 20px;
+ opacity: .95;
+}
+
+#name {
+    font-weight: 800;
 }
 
 /* ABOUT ME */
-#about-me {
-    background-color: bisque;
+#about-me-section {
+    background-color: whitesmoke;
     position: relative;
     height: 500px;
 }
 
+.fab {
+    display: block;
+    color: #13547a;
+}
 
 /* PORTFOLIO */
-#portfolio-section {
-    background-color: pink;
+#dev-portfolio-section {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    position: relative;
+    height: 500px;
+}
+
+.project-preview {
+  height: 300px;
+  width: 390px;
+  border-radius: none;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    border: 0;
+    display: flex;
+    border-radius: none;
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.4);
+    align-items: center;
+    margin: 10px 0 10px;
+  }
+
+/* SKILLS */
+#ba-section {
+    background-color: whitesmoke;
     position: relative;
     height: 500px;
 }
 
 
+/* SAY HELLO */
+#say-hello-section {
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+    position: relative;
+    height: 500px;
+}
+
+.form-box {
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.4);
+    z-index: 2;
+    background-color: #f7f7f7;
+    padding: 20px 20px;
+
+   }
+
+textarea {
+    resize: none;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: #e6e6e6;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 15px;
+    text-align: center;
+}
 
 /* MEDIA QUERIES */
 
