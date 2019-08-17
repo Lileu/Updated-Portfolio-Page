@@ -1,20 +1,9 @@
 # Updated-Portfolio-Page
 Week 9 Homework
 
+https://lileu.github.io/Updated-Portfolio-Page/
 
-
-Your updated site should have the following content:
-
-* Your name
-
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
-
-* A link to a PDF of your resume
-
-* List of projects. For each project make sure you have the following:
-
-  * Project title
-
-  * Link to the deployed version
-
-  * Link to the code on GitHub
+## Featured Portfolios
+https://lileu.github.io/GifTastic/
+https://lileu.github.io/Train-Scheduler/
+https://lileu.github.io/SC-200/
