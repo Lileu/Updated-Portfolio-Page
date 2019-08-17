@@ -28,9 +28,9 @@
                             <ul id="horizontal-list">
                                 <li><a href="#home-section">home</a></li>
                                 <li><a href="#about-me-section">about</a></li>
-                                <li><a href="dev-portfolio-section"></a>portfolio</li>
-                                <li><a href="#ba-profile"></a>work</li>
-                                <li><a href="#say-hello-section"></a>contact</li>
+                                <li><a href="#dev-portfolio-section"></a>portfolio</li>
+                                <li><a href="#ba-profile"></a>skills profile</li>
+                                <li><a href="#contact-section"></a>contact</li>
                             </ul>
                         </nav>
                     </div>
@@ -50,11 +50,15 @@
                             <div class="col-lg-6">
                                 <div class="banner-box">
                                     <h1 id="name">LISA LEU</h1>
+
                                     <p class="text-secondary">Business Analyst <span class="mx-3">|</span> Developer</p>
+
                                     <p class="banner-description">Passionate about building awesome stuff with brilliant
-                                        people.</p><br>
-                                    <p><a href="#contact-section" class="btn smoothscroll btn-primary">Say Hello</a>
-                                    </p>
+                                        people.</p>
+                                    <a href="https://github.com/Lileu" target="_blank"><i
+                                            class="fab fa-linkedin fa-3x"></i></a>
+                                    <a href="https://www.linkedin.com/in/lisaleu/" target="_blank"><i
+                                            class="fab fa-github-square fa-3x"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -76,14 +80,13 @@
                 <div class="column col-md-6">
                     <h3>About me</h3>
                     <p>I am an experienced Business Analyst with a Bachelor of Commerce (Finance and Economics), and a
-                        with a strong industry background in Financial Services. My broad working experience across
-                        Accounting, Platform Custody and Data Reporting has endowed me with a solid and holistic
-                        understanding of the wealth management ecosystem, and a well-rounded professional skill set.</p>
-
-                        <p>I am passionate about continuous learning and innovation, and am very much driven by these
+                        with a strong industry background in Financial Services and IT.</p>
+                    <p>I am passionate about continuous learning and innovation, and am very much driven by these
                         values in my work. </p>
-                    <i class="fab fa-linkedin fa-3x"></i>
-                    <i class="fab fa-github-square fa-3x"></i>
+                    <p><a href="/assets/files/Lisa Leu - Resume.pdf" download="LL_resume">
+                            <i class="fas fa-file-pdf fa-3x"></i></a>
+                        Download my resume for more on my experience and background.</p>
+                    </i><br>
                 </div>
             </div>
         </div>
@@ -94,8 +97,8 @@
             <div class="row">
                 <div class="column col-md-12">
                     <div class="main-section">
-                        <h3>Programming portfolio</h3>
-                        <div class="container">
+                        <h3>Portfolio</h3><br>
+
                         <div class="row" id="portfolio-row">
 
                             <div class="card col-md-4 col-xs-12">
@@ -124,44 +127,82 @@
 
     </section>
     <!-- BA portfolio section -->
-    <section class="site-section" id="ba-section">
+    <section class="site-section" id="skills-section">
         <div class="container">
             <div class="row">
                 <div class="column col-md-12">
                     <div class="main-section">
-                        <h3>BA me</h3>
-                        <div class="row">
+                        <h3>Skills profile</h3><br>
 
-                            <div class="column col-sm-6">Netwealth Mobile App for IOS and Android</div>
-                            <div class="column col-sm-6">BI and data analytics</div>
-                            <div class="column col-sm-6">UI/UX & wireframing</div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <a href="/assets/images/nw_mobileapp.svg" target="_blank">
+                                        <img src="/assets/images/nw_mobileapp.svg" alt="nw mobile" style="width:100%">
+                                    </a>
+                                    <div>
+                                        <h4>Project delivery</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <a href="assets/images/ccba.png" target="_blank">
+                                        <img src="assets/images/ccba.png" alt="Nature" style="width:100%" </a> <div>
+                                        <h4>CCBA qualified</h4>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="thumbnail">
+                                <a href="/assets/images/scrum.png" target="_blank">
+                                    <img src="/assets/images/scrum.png" alt="" style="width:100%">
+                                    <div>
+                                        <h4>Profession Scrum Master I</h4>
+                                    </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+                <div class="column col-sm-6">
+                    <h4>UI/UX & wireframing</h4>
+                    <img id="figma" class="skills-img" src="/assets/images/figma_wireframes.png" alt="figma wireframes">
+
+                </div>
             </div>
         </div>
+        </div>
+        </div>
+        </div>
     </section>
-    <!-- say hello -->
-    <section class="site-section" id="say-hello">
+    <!-- contact -->
+    <section class="site-section" id="contact-section">
         <div class="container">
             <div class="row">
                 <div class="column col-sm-12">
                     <div class="main-section">
                         <div class="form-box">
                             <form>
-                                <h3>Say Hello</h3>
+                                <h3>contact</h3><br>
                                 <ul id="contact-form">
                                     <li>
                                         <label for="name">Name</label>
-                                        <input type="text" required="required">
+                                        <input class="short-input" type="text" required="required">
                                     </li>
                                     <li>
                                         <label for="email">Email</label>
-                                        <input type="email" required="required">
+                                        <input class="short-input" type="email" required="required">
                                     </li>
                                     <li>
                                         <label for="message">Message</label>
-                                        <textarea name="message " id="message" cols="30" rows="8"
+                                        <textarea name="message " id="message" cols="30" rows="5"
                                             required="required"></textarea>
                                     </li>
                                 </ul>
