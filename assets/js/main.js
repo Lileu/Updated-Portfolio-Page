@@ -15,8 +15,6 @@ siteSticky();
 
 var siteScroll = function() {
 
-  	
-
     $(window).scroll(function() {
 
         var st = $(this).scrollTop();
@@ -31,3 +29,13 @@ var siteScroll = function() {
 
 };
 siteScroll();
+
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});

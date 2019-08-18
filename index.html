@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Meyers Reset -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -26,11 +27,11 @@
                     <div class="column col-md-12" id="navlinks">
                         <nav>
                             <ul id="horizontal-list">
-                                <li><a href="#home-section">home</a></li>
-                                <li><a href="#about-me-section">about</a></li>
-                                <li><a href="#dev-portfolio-section"></a>portfolio</li>
-                                <li><a href="#skills-profile"></a>skills profile</li>
-                                <li><a href="#contact-section"></a>contact</li>
+                                <li><a href="#home-section" class="scrollLink">home</a></li>
+                                <li><a href="#about-me-section" class="scrollLink">about</a></li>
+                                <li><a href="#dev-portfolio-section" class="scrollLink">portfolio</a></li>
+                                <li><a href="#skills-section" class="scrollLink">skills profile</a></li>
+                                <li><a href="#contact-section" class="scrollLink">contact </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -42,7 +43,7 @@
     <!-- banner section  -->
     <section class="site-section" id="home-section">
         <div class="banner"
-            style="background-image:url('/assets/images/banner_img.jpg?anchor=center&amp;mode=crop&amp;width=1920&amp;height=650&amp;rnd=131556473890000000&#39;)">
+            style="background-image:url('assets/images/banner_img.jpg?anchor=center&amp;mode=crop&amp;width=1920&amp;height=650&amp;rnd=131556473890000000&#39;)">
             <div class="container">
                 <div class="row">
                     <div class="column col-md-12">
@@ -78,12 +79,12 @@
                 </div>
 
                 <div class="column col-md-6">
-                    <h3>about me</h3>
+                    <h3>about me</h3><br>
                     <p>I am an experienced Business Analyst with a Bachelor of Commerce (Finance and Economics), and a
                         with a strong industry background in Financial Services and IT.</p>
                     <p>I am passionate about continuous learning and innovation, and am very much driven by these
                         values in my work. </p>
-                    <p><a href="/assets/files/Lisa Leu - Resume.pdf" download="LL_resume">
+                    <p><a href="assets/files/Lisa Leu - Resume.pdf" download="LL_resume">
                             <i class="fas fa-file-pdf fa-3x"></i></a>
                         Download my resume for more on my experience and background.</p>
                     </i><br>
@@ -99,43 +100,38 @@
                 <div class="column col-md-12">
                     <div class="main-section">
                         <h3>portfolio</h3><br>
-
                         <div class="row">
-
                             <div class="card col-md-4 col-xs-12">
                                 <p class="pf">GifTastic</p>
                                 <a href="https://github.com/Lileu/GifTastic">view code</a>
                                 <a href="https://lileu.github.io/GifTastic/">
-                                    <img class="project-preview card-img-top" src="/assets/images/giftastic.PNG"
+                                    <img class="project-preview card-img-top" src="assets/images/giftastic.PNG"
                                         alt="project1">
                                 </a>
                             </div>
-
                             <div class="card col-md-4 col-xs-12">
                                 <p class="pf">Train scheduler</p>
                                 <a href="https://github.com/Lileu/Train-Scheduler">view code</a>
                                 <a href="https://lileu.github.io/Train-Scheduler/">
-                                    <img class="project-preview card-img-top" src="/assets/images/train_scheduler.png"
+                                    <img class="project-preview card-img-top" src="assets/images/train_scheduler.png"
                                         alt="project2">
                                 </a>
                             </div>
-
                             <div class="card col-md-4 col-xs-12">
                                 <p class="pf">DIS-CONNECT</p>
                                 <a href="https://github.com/Lileu/SC_200">view code</a>
-
                                 <a href="https://lileu.github.io/SC_200/">
-                                    <img class="project-preview card-img-top" src="/assets/images/dis-connect.gif"
+                                    <img class="project-preview card-img-top" src="assets/images/dis-connect.gif"
                                         alt="project3">
                                 </a>
                             </div>
-
-                        </div>it
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- BA portfolio section -->
     <section class="site-section" id="skills-section">
         <div class="container">
@@ -143,58 +139,37 @@
                 <div class="column col-md-12">
                     <div class="main-section">
                         <h3>skills profile</h3><br>
-
                         <div class="row">
-                            <div class="col-md-4">
+
+                            <div class="col-md-4 col-xs-12">
                                 <p class="skills">Business Analysis/Project delivery</p>
-                                <div class="thumbnail">
-                                    <a href="/assets/images/nw_mobileapp.svg" target="_blank">
-                                        <img src="/assets/images/nw_mobileapp.svg" alt="nw mobile" style="width:100%">
-                                    </a>
-                                </div>
+                                <img id="skills-img" src="assets/images/nw_mobileapp.svg" alt="nw mobile">
                             </div>
-                            <div class="col-md-4">
+
+                            <div class="col-md-4 col-xs-12">
                                 <p class="skills">CCBA qualified</p>
-                                <div class="thumbnail">
-                                    <a href="assets/images/ccba.png" target="_blank">
-                                        <img src="assets/images/ccba.png" alt="Nature" style="width:100%">
-                                    </a>
-                                </div>
+                                <img id="skills-img" src="assets/images/ccba.png" alt="ccba">
                             </div>
-
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-xs-12">
                                 <p class="skills">Professional Scrum Master I certified</p>
-                                <div class="thumbnail">
-                                    <a href="/assets/images/scrum.png" target="_blank">
-                                        <img src="/assets/images/scrum.png" alt="" style="width:100%">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p class="skills">Data analysis/visualisation</p>
-                                <div class="thumbnail">
-                                    <a href="/assets/images/data.PNG" target="_blank">
-                                        <img src="/assets/images/data.PNG" alt="" style="width:100%">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="skills">UI/UX & wireframing</p>
-                                <div class="thumbnail">
-                                    <a href="/assets/images/figma_wireframes.png" target="_blank">
-                                        <img src="/assets/images/figma_wireframes.png" alt="" style="width:100%">
-                                    </a>
-                                </div>
-
+                                <img id="skills-img" src="assets/images/scrum.png" alt="psmi">
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <p class="skills">Data analysis/visualisation</p>
+                            <img id="skills-img" src="assets/images/data.PNG" alt="data">
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <p class="skills">UI/UX & wireframing</p>
+                            <img id="skills-img" src="assets/images/figma_wireframes.png" alt="figma">
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
     </section>
-
 
     <!-- contact -->
     <section class="site-section" id="contact-section">
@@ -222,7 +197,6 @@
                                 </ul>
                                 <button type="button" class="btn btn-primary">Submit</button>
                             </form>
-
                         </div>
                     </div>
                 </div>
@@ -230,14 +204,12 @@
         </div>
     </section>
 
-
     <!-- footer -->
     <footer class="footer mt-auto py-3">
         <div class="container">
             <span class="text-muted">Lisa Leu &copy; 2019</span>
         </div>
     </footer>
-
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -253,11 +225,9 @@
     </script>
     <!-- Fontawesome icons-->
     <script src="https://kit.fontawesome.com/16b6c2968f.js"></script>
-    <!-- Sticky js for header -->
-    <script src="assets/js/jquery.sticky.js"></script>
-
-
+    <!-- Main js -->
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

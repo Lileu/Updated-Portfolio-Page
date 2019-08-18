@@ -55,9 +55,14 @@ ul  {
 .container {
     margin-right: auto;
     margin-left: auto;
-    padding: 50px 15px;
+    padding: 50px 5px;
     flex-direction: column;
 }
+
+.row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
 
 /* BANNER */
 
@@ -189,10 +194,9 @@ mx-3 {
     border-radius: none;
 }
 
-
 .card {
     position: relative;
-    width: 100%;
+    width: 18rem;
     height: 100%;
     overflow: visible;
     border: 0;
@@ -201,13 +205,18 @@ mx-3 {
     box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .4);
     align-items: center;
     padding: 5px;
+
+}
+
+p.pf    {
+    margin: 10px 0 5px 0;
 }
 
 /* SKILLS */
 #skills-section {
     background-color: whitesmoke;
     position: relative;
-    height: 780px;
+    height: 820px;
 }
 
 p.skills {
@@ -215,6 +224,9 @@ p.skills {
     margin-top: 20px;
 }
 
+#skills-img {
+    width: 100%;
+}
 
 /* CONTACT */
 #contact-section {
